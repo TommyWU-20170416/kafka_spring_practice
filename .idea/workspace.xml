@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15e5936d-4b92-42a7-bf55-8645594e0910" name="Changes" comment="[kafka]-initial">
-      <change afterPath="$PROJECT_DIR$/tool/kafka_controller.bat" afterDir="false" />
+    <list default="true" id="15e5936d-4b92-42a7-bf55-8645594e0910" name="Changes" comment="[20240101]-修改readme 以及 UserVo 內容">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/consumer/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/consumer/config/KafkaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/consumer/config/KafkaConsumerConfigWithValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/consumer/config/KafkaConsumerConfigWithValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/consumer/model/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/consumer/model/UserVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/java/producer/control/ProducerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/producer/control/ProducerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/java/producer/model/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/producer/model/UserVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/kafka_controller.bat" beforeDir="false" afterPath="$PROJECT_DIR$/tool/kafka_controller.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +52,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -123,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704098225897</updated>
-      <workItem from="1704098227231" duration="4857000" />
+      <workItem from="1704098227231" duration="5470000" />
     </task>
     <task id="LOCAL-00001" summary="[kafka]-initial">
       <created>1704102862057</created>
@@ -132,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704102862057</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[20240101]-修改readme 以及 UserVo 內容">
+      <created>1704103724569</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704103724569</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +155,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="[kafka]-initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="[kafka]-initial" />
+    <MESSAGE value="[20240101]-修改readme 以及 UserVo 內容" />
+    <option name="LAST_COMMIT_MESSAGE" value="[20240101]-修改readme 以及 UserVo 內容" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

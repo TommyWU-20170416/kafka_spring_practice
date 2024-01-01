@@ -105,5 +105,5 @@ goto menu
 
 
 :QA
-echo 如果一鍵啟用 KAFKA一直失敗，先刪除
+echo 如果一鍵啟用 KAFKA一直失敗，先刪除tmp/底下的資料，刪除後要重新建立 topic
 goto menu
