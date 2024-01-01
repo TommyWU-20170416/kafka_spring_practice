@@ -20,12 +20,12 @@ public class ProducerController {
     @Autowired
     private KafkaTemplate<String, UserVo> kafkaTemplate;
 
-    @GetMapping("/publish/{dpt}/{id}")
-    public String post(@PathVariable("dpt") final String dpt, @PathVariable("id") final String id) {
+    @GetMapping("/publish/{name}/{id}")
+    public String post(@PathVariable("name") final String name, @PathVariable("id") final String id) {
 
-        UserVo userVo = new UserVo(id, dpt);
+        UserVo userVo = new UserVo(id, name);
         kafkaTemplate.send(KafkaConfig.JSON_TOPIC, userVo);
-        System.out.println();
-        return "Published doneeeeeeeee";
+        LOGGER.info("Consumed JSON Message: {} ", userVo);
+        return "Published done";
     }
 }

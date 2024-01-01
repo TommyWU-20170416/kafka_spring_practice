@@ -4,30 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15e5936d-4b92-42a7-bf55-8645594e0910" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/consumer/ConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/consumer/config/KafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/consumer/config/KafkaConsumerConfigWithValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/consumer/model/UserVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/consumer/services/KafkaConsumerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/test/java/TestSpringKafkaConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/java/producer/ProducerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/java/producer/config/KafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/java/producer/control/ProducerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/java/producer/model/UserVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/producer/src/test/java/TestSpringKafkaProducerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="15e5936d-4b92-42a7-bf55-8645594e0910" name="Changes" comment="[kafka]-initial">
+      <change afterPath="$PROJECT_DIR$/tool/kafka_controller.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/consumer/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/consumer/config/KafkaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/consumer/config/KafkaConsumerConfigWithValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/consumer/config/KafkaConsumerConfigWithValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/consumer/model/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/consumer/model/UserVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/producer/control/ProducerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/producer/control/ProducerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/producer/model/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/producer/model/UserVo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,11 +70,14 @@
       <recent name="D:\code\JAVA\kafka_spring_practice\consumer\src\main\java" />
       <recent name="D:\code\JAVA\kafka_spring_practice\consumer\src\main\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\JAVA\kafka_spring_practice\tool" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
+  <component name="RunManager" selected="Spring Boot.ProducerApplication">
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="consumer.ConsumerApplication" />
@@ -122,8 +110,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConsumerApplication" />
         <item itemvalue="Spring Boot.ProducerApplication" />
+        <item itemvalue="Spring Boot.ConsumerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -135,15 +123,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704098225897</updated>
-      <workItem from="1704098227231" duration="3955000" />
+      <workItem from="1704098227231" duration="4857000" />
     </task>
+    <task id="LOCAL-00001" summary="[kafka]-initial">
+      <created>1704102862057</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704102862057</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="[kafka]-initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="[kafka]-initial" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

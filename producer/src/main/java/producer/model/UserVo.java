@@ -3,20 +3,20 @@ package producer.model;
 public class UserVo {
 
     private String id;
-    private String dpt;
+    private String name;
 
-    public UserVo(String id, String dpt) {
+    public UserVo(String id, String name) {
         super();
         this.id = id;
-        this.dpt = dpt;
+        this.name = name;
     }
 
-    public String getDpt() {
-        return dpt;
+    public String getName() {
+        return name;
     }
 
-    public void setDpt(String dpt) {
-        this.dpt = dpt;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getId() {
@@ -29,7 +29,7 @@ public class UserVo {
 
     @Override
     public String toString() {
-        return "UserVo [id=" + id + ", dpt=" + dpt + "]";
+        return "UserVo [id=" + id + ", name=" + name + "]";
     }
 
 }
