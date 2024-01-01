@@ -62,9 +62,10 @@ public class KafkaConsumerConfigWithValue {
         jsonDeserializer.addTrustedPackages("*");
         /**
          * 如果在另一個 project 的 UserVo 發送消息，會在 consumer 收到的時候，變成下面的樣子
-         * NO_HEADERS      null    { "id": "1", "name": "4" }                        > 這是用 CMD 發送，所以沒有 header
          * __TypeId__:com.kafka.producer.UserVo    null    {"id":"s01","name":"sa"}  > 這是用 kafkaTemplate 發送，所以預設帶 TypeId
-         * 因此若可以確認 Deserialize 的物件，可以不啟用 TypeHeader 也就不用去抓 TypeId
+         *
+         * NO_HEADERS      null    { "id": "1", "name": "4" }                        > 這是用 CMD 發送，所以沒有 header
+         * 因此若確認 Deserialize 的物件可用什麼 物件去解析，則可以不啟用 TypeHeader 也就是不用去抓 TypeId
          */
         jsonDeserializer.setUseTypeHeaders(false); // 禁用類型標識
         config.put(ErrorHandlingDeserializer.VALUE_DESERIALIZER_CLASS, jsonDeserializer);

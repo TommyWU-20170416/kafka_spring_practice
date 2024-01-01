@@ -19,6 +19,9 @@
 - consumer 的 groupId
     - group_1(給 test 用)
     - group_2(給 json 用)
+- BOOTSTRAP_SERVERS_CONFIG
+    - localhost:9092
+- SSL 尚未設定
 
 ## Postman 測試發送資料
 
@@ -37,7 +40,7 @@ GET - http://localhost:8082/kafka/publish/aaron/05
 ### 小工具功能說明
 
 為簡便操作內容，整理 kafka 常用指令
-交此工具放到 Kafka 資料夾底下，與 /bin 同一層資料夾
+將此工具放到 Kafka 資料夾底下，與 /bin 同一層資料夾
 
 ### 1. 一鍵啟用 KAFKA
 
