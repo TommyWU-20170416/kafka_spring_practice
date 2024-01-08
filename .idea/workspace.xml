@@ -3,24 +3,63 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BeansEndpointTabSettings">
+    <option name="diagramMode" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="15e5936d-4b92-42a7-bf55-8645594e0910" name="Changes" comment="[20240101]-補充小工具使用">
+      <change afterPath="$PROJECT_DIR$/xmlbean/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlbean/src/main/java/org/example/XMLBeanApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlbean/src/main/java/org/example/components/MyComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlbean/src/main/java/org/example/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlbean/src/main/java/org/example/services/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlbean/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/consumer/config/KafkaConsumerConfigWithValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/consumer/config/KafkaConsumerConfigWithValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/consumer/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/consumer/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="de167cc1-3652-4dcb-8eaf-ebb839199d8d" />
+        <option name="url" value="https://github.com/TommyWU-0416/kafka_spring_practice.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -38,6 +77,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -47,24 +90,27 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "zulu-1.8",
-    "last_opened_file_path": "D:/code/JAVA/kafka_spring_practice/producer/src/main/java",
+    "last_opened_file_path": "D:/code/JAVA/kafka_spring_practice/xmlbeanrestart/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4183908",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
+    "spring.configuration.checksum": "d7f37f853ba8ea03f57d4b0bd03dc458",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\JAVA\kafka_spring_practice\producer\src\main\java" />
-      <recent name="D:\code\JAVA\kafka_spring_practice\producer\src\main\resources" />
-      <recent name="D:\code\JAVA\kafka_spring_practice\consumer\src\main\java" />
-      <recent name="D:\code\JAVA\kafka_spring_practice\consumer\src\main\resources" />
+      <recent name="D:\code\JAVA\kafka_spring_practice\xmlbeanrestart\src\main\resources" />
+      <recent name="D:\code\JAVA\kafka_spring_practice\xmlbeanrestart\src\main\java\org\example" />
+      <recent name="D:\code\JAVA\kafka_spring_practice\xmlbeanwithconsumer\src\main\java\org\example" />
+      <recent name="D:\code\JAVA\kafka_spring_practice" />
+      <recent name="D:\code\JAVA\kafka_spring_practice\xmlbean\src\main\java\org\example" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\JAVA\kafka_spring_practice\tool" />
@@ -72,27 +118,31 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProducerApplication">
-    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+  <component name="RunManager" selected="Spring Boot.XMLBeanRestart">
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="consumer.ConsumerApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="producer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="producer.ProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XMLBeanApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xmlbean" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.XMLBeanApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="producer.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,14 +150,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Spring Boot.ConsumerApplication" />
-      <item itemvalue="Spring Boot.ProducerApplication" />
-    </list>
+    <configuration name="XMLBeanRestart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xmlbeanrestart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.XMLBeanRestart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XMLBeanWithConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xmlbeanwithconsumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.XMLBeanWithConsumerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XMLBeanWithConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xmlbeanwithconsumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.XMLBeanWithConsumerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ProducerApplication" />
-        <item itemvalue="Spring Boot.ConsumerApplication" />
+        <item itemvalue="Spring Boot.XMLBeanRestart" />
+        <item itemvalue="Spring Boot.XMLBeanWithConsumerApplication" />
+        <item itemvalue="Spring Boot.XMLBeanWithConsumerApplication" />
+        <item itemvalue="Spring Boot.XMLBeanApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +206,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704098225897</updated>
-      <workItem from="1704098227231" duration="5821000" />
+      <workItem from="1704098227231" duration="6484000" />
+      <workItem from="1704534525619" duration="15941000" />
+      <workItem from="1704597931726" duration="14000" />
+      <workItem from="1704620252038" duration="619000" />
+      <workItem from="1704633316932" duration="4125000" />
+      <workItem from="1704723004154" duration="432000" />
     </task>
     <task id="LOCAL-00001" summary="[kafka]-initial">
       <created>1704102862057</created>
@@ -142,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704104233456</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[20240101]-補充小工具使用">
+      <created>1704104600430</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704104600430</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +278,36 @@
           <line>18</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xmlbean/src/main/java/org/example/controller/MyController.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xmlbean/src/main/java/org/example/controller/MyController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xmlbeanwithconsumer/src/main/java/org/example/config/KafkaConsumerConfigWithValue.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xmlbeanwithconsumer/src/main/java/org/example/config/KafkaConsumerConfigWithValue.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/consumer/src/main/java/consumer/config/KafkaConsumerConfigWithValue.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

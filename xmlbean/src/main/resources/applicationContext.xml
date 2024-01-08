@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Define the MyComponent bean -->
+    <bean id="myComponent" class="org.example.components.MyComponent"/>
+
+    <!-- Define the MyService bean -->
+    <bean id="myService" class="org.example.services.MyService">
+        <property name="myComponent" ref="myComponent"/>
+    </bean>
+
+    <!-- Define the MyController bean and inject the MyService bean -->
+    <bean id="myController" class="org.example.controller.MyController">
+        <!-- 以下兩個方法都可以做到注入 -->
+
+        <!-- 這是構造函數參數的配置，表示MyController的構造函數需要一個引用（ref）為myService的參數。這個參數是通過構造函數注入的，它會被Spring自動解析為myService這個bean的實例。 -->
+        <!-- <constructor-arg ref="myService"/> -->
+
+        <!-- 這樣寫會調用 setter 方式達到注入 setMyService -->
+        <property name="myService" ref="myService"/>
+    </bean>
+
+</beans>
